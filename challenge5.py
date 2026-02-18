@@ -18,7 +18,7 @@ for i in range(n):
     elif s[i]>=1 and s[i]<=20:
         low_demand.append(s[i])
         valid_count += 1
-    elif s[i]>=21 and s[i]<=50:
+    elif s[i]>=21 and s[i]<50:
         moderate_demand.append(s[i])
         valid_count += 1
     else:
